@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bigjara HTML is a complete guide on HTML">
+    <meta name="keywords" content="HTML, web pages ,markup, HTML5, elements, tags, attribute">
+    <title>How to create FORMS </title>
+</head>
+<body>
+    <h1>Creating forms</h1>
+    <p>Fill the form below with the right information</p>
+    <form  method="POST" action="/signup" >
+        <label for="uesr name"> User name</label>
+        <input type="text" placeholder="Enter your name" name="user name" required>
+        <label for="Password"> password</label>
+        <input type="password"  name="password" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        <label for="date of birth">Date of Birth</label>
+        <input type="date" class="input input-border-faint" id="dob">
+        <label for="Country of residence">State of residence</label>
+        <select name="State-of-residence" >
+       <option value="Nigeria">Nigeria</option>
+       <option value="Rwand"Rwand></option>
+</select>
+<label for="bio">bio</label>
+<textarea name="bio" class="input input-border-faint">Default text</textarea>
+<label for="gender">Gender</label>
+<input type="radio" name="gender" value="Male">
+<label for="male">Male</label>
+<input type="radio" name="gender" value="Female">
+<label for="Female">Female</label>
+<!-- working with checkbox -->
+<label for=" color">Favorite color</label>
+<input type="checkbox" name="gender" value="Male">
+<span>Red</span>
+<input type="checkbox" name="color" value="Blue">
+<span>Blue</span>
+<input type="checkbox" name="color" value="orange">
+<span>orange</span>
+<label for="prfile picture"></label>
+<input type="file" name="avater">
+        <input type="submit">
+
+    </form>
+</body>
+</html>
